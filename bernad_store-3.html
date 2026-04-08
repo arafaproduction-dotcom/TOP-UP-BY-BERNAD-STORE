@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BERNAD STORE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px;
+      font-size: 2.5em;
+      font-weight: bold;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    .container {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.03);
+      background: rgba(255,255,255,0.2);
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      border-radius: 25px;
+      background: linear-gradient(45deg, #00c6ff, #0072ff);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: linear-gradient(45deg, #ff512f, #dd2476);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0,0,0,0.3);
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>BERNAD STORE</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/1/1e/Free_Fire_Logo.png">
+    <h3>Free Fire</h3>
+    <a href="#" class="btn">Top Up</a>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Mobile_Legends_Bang_Bang_logo.png">
+    <h3>Mobile Legends</h3>
+    <a href="#" class="btn">Top Up</a>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/44/PUBG_Mobile_logo.png">
+    <h3>PUBG Mobile</h3>
+    <a href="#" class="btn">Top Up</a>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Call_of_Duty_Mobile_Logo.png">
+    <h3>Call of Duty Mobile</h3>
+    <a href="#" class="btn">Top Up</a>
+  </div>
+
+</div>
+
+<footer>© 2026 BERNAD STORE - Top Up Game Murah & Cepat</footer>
+
+</body>
+</html>
